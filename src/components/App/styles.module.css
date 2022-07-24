@@ -1,0 +1,14 @@
+.root {
+  height: 100vh;
+
+  color: #122236;
+}
+
+.profileSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 128px;
+  background-color: #e7ecf2;
+}
