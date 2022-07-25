@@ -1,0 +1,32 @@
+.table {
+  min-width: 800px;
+}
+
+.cell {
+  padding: 16px;
+
+  color: #828688;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.row > .cell:first-child {
+  text-transform: capitalize;
+}
+
+.row:nth-child(odd) > .cell {
+  background-color: #fff;
+}
+
+.row:nth-child(even) > .cell {
+  background-color: #ecf0f4;
+}
+
+.header > .row > .cell {
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  color: #fff;
+  text-transform: uppercase;
+
+  background-color: #00bcd5;
+}
