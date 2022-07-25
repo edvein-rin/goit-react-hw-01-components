@@ -1,0 +1,13 @@
+.friendList {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+}
+
+.friendList > *:not(:first-child) {
+  margin-top: 8px;
+}
